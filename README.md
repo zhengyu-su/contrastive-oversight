@@ -44,7 +44,7 @@ We explicitly assess the alignment divergences between human semantic classifica
 > 
 > Technically, when a user manually modifies an image to reflect the correct class, but the underlying model persists with its original incorrect prediction, the model treats these human changes as *semi-factuals* (inputs change, but the outcome prediction remains static). 
 > 
-> $$SFR = \frac{\text{\#Incorrect instances despite human intervention}}{\text{\#Total human counterfactual inputs}}$$
+> $$SFR = \frac{\text{Number of incorrect instances despite human intervention}}{\text{Number of total human counterfactual inputs}}$$
 > 
 
 ---
